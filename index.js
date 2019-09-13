@@ -18,7 +18,7 @@ function nameToAttributes(arr) {
 
 function attributesToPhrase(obj) {
   let newArray = obj.map(function(driver) {
-    newArray.push(`${driver.name} is from ${driver.hometown}`);
+    return newArray.push(`${driver.name} is from ${driver.hometown}`);
   })
   return newArray;
 }
