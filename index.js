@@ -11,7 +11,7 @@ function nameToAttributes(arr) {
     let splitArray = driver.split(" ");
     let first = splitArray[0];
     let last = splitArray[1];
-    return Object.assign({}, {firstName: first[0], lastName: last[0]})
+    return Object.assign({}, {firstName: first, lastName: last})
   })
   return newArray;
 }
