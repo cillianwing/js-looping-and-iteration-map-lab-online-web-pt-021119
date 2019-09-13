@@ -6,6 +6,6 @@ function lowerCaseDrivers(arr) {
   return newArray;
 }
 
-function nameToAttributes() {
+function nameToAttributes(arr) {
   
 }
