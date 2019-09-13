@@ -16,6 +16,6 @@ function nameToAttributes(arr) {
   return newArray;
 }
 
-function attributesToPhrase() {
+function attributesToPhrase(obj) {
   
 }
